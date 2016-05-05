@@ -1,0 +1,46 @@
+/* 底部样式footer.css */
+
+footer{
+	font-family: arial;
+	background-color:#d6d6d6;
+	clear:left;
+	overflow: hidden;
+}
+
+footer section{
+	width:950px;
+	margin:0 auto;
+	font-size:12px;
+	color:#666;
+	padding:30px 0;
+	position: relative;
+	text-align: center;
+	line-height: 20px;
+}
+
+footer section .footer-web-map{
+	position: absolute;
+	top:0;
+	right:0;
+	border:1px solid #c8c8c8;
+	background-color:#fff;
+	padding:0 15px;
+	border-top:none;
+}
+
+footer section .footer-web-map a{
+	text-decoration: none;
+	color:#666;
+}
+
+footer section .footer-web-map a:hover{
+	color:#ff6600;
+}
+
+footer section .footer-web-map a i{
+	font-weight: bold;
+	margin-left:5px;
+}
+
+
+

@@ -1,0 +1,296 @@
+@import url(header.css);
+@import url(footer.css);
+
+/* 产品页样式 */
+.main{
+	font-family: arial;
+	width:950px;
+	margin:0 auto;
+}
+
+.main nav{
+	overflow: hidden;
+}
+
+.main nav ul{
+	overflow: hidden;
+}
+
+.main nav ul li{
+	float:left;
+	padding:15px 11px 10px;
+}
+
+.main nav ul li a{
+	font-size:12px;
+	color:#666;
+	text-decoration: none;
+}
+
+.main nav ul li:first-child a{
+	color:#ff6600;
+}
+
+.main nav ul li a:hover{
+	color:#ff6600;
+}
+
+.Img-pic-Show img{
+	display: block;
+}
+
+/* main-mid-content */
+
+.main-mid-content{
+	overflow: hidden;
+}
+
+.main-mid-content article{
+	border:1px solid #d3d3d3;
+	border-right:none;
+	width:255px;
+	float:left;
+	margin-top:20px;
+	padding:25px 30px;
+}
+
+.main-mid-content article:last-child{
+	border-right:1px solid #d3d3d3;
+}
+
+.main-mid-content footer{
+	background-color:#fff;
+	clear:left;
+}
+.main article{
+	height:240px;
+}
+
+article header{
+	overflow: hidden;
+}
+
+article header .icon{
+	float:left;
+	width:77px;
+	height:78px;
+}
+
+.UC-part-content header .icon{
+	background:url(../images/product/content1.gif) no-repeat 0 0;
+
+}
+
+.call-part-content header .icon{
+	background:url(../images/product/content2.gif) no-repeat 0 0;
+
+}
+
+.UC-park header .icon{
+	background:url(../images/product/content3.gif) no-repeat 0 0;
+}
+
+article header div{
+	float:left;
+	padding:10px 35px;
+	text-align: center;
+	vertical-align: top;
+}
+
+article header div h3 a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size:18px;
+	color:#666;
+}
+
+article header div h3 a:hover{
+	color:#ff6600;
+}
+
+.UC-part-content header div .button,
+.call-part-content header div .button{
+	display: block;
+	width:108px;
+	height:33px;
+	line-height: 33px;
+	color:#fff;
+	font-size:12px;
+	text-decoration: none;
+	background:url(../images/sprite.gif) no-repeat 0 -220px;
+	margin-top:5px;
+}
+
+.UC-part-content header div .button:hover,
+.call-part-content header div .button:hover{
+	color:#ff6600;
+}
+
+article section{
+	font-size:12px;
+	color:#666;
+	line-height:20px;
+}
+
+article .main-mid-content p{
+	margin-top:10px;
+	height:90px;
+}
+
+article section ul{
+	overflow: hidden;
+	margin:5px 0 10px;
+}
+
+article section ul li{
+	float:left;
+	padding-right:10px;
+}
+
+article section ul li a{
+	text-decoration: none;
+	color:#0050b4;
+}
+
+article section ul li a:hover{
+	color:#ff6600;
+}
+
+article section ul li a:hover i{
+	border-left-color: #ff6600;
+}
+
+article section ul li a i{
+	display: inline-block;
+	width:0;
+	height:0;
+	border:4px solid transparent;
+	border-left-color:#0050b4;
+	margin-left:5px;
+}
+
+article footer span:first-child{
+	float:left;
+	border:1px solid #ccc;
+	font-size:12px;
+	color:#666;
+	padding:3px 10px;
+	border-radius:3px;
+	position: relative;
+}
+
+article footer span:first-child::after{
+	position: absolute;
+	content:"";
+	z-index:1;
+	background-color:#fff;
+	right:0;
+	margin-right:-4px;
+	top:6px;
+	width:6px;
+	height:6px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	border:1px solid #ccc;
+	border-left:none;
+	border-bottom:none;
+}
+
+article footer .weixin-icon,
+article footer .weibo-icon{
+	float:left;
+	margin-left:10px;
+	width:22px;
+	height:22px;
+	background: url(../images/sprite.gif) no-repeat;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
+	-ms-transition:all 0.5s;
+	transition: all 0.5s;
+}
+
+article footer .weixin-icon{
+	background-position: 0 -60px;
+}
+
+article footer .weixin-icon:hover{
+	background-position: 0 -100px;
+}
+
+article footer .weibo-icon{
+	background-position: -40px -60px;
+}
+
+article footer .weibo-icon:hover{
+	background-position: -40px -100px;
+}
+
+/* UC乐园部分 */
+.UC-park header div{
+	padding:0px 0px 5px 30px;
+}
+
+.UC-park header div span{
+	display: block;
+	border:1px solid #ccc;
+	padding:5px 15px;
+	border-radius: 6px;
+}
+
+.UC-park header div span a{
+	display: block;
+	color:#ff6600;
+	font-size:25px;
+	text-decoration: none;
+}
+
+/* 主内容底部实验室内容部分 */
+.main-bottom-lab{
+	clear:left;
+	overflow: hidden;
+	border-top:1px solid #dbdbdb;
+	margin-top:15px;
+	padding-bottom: 50px;
+}
+
+.main-bottom-lab .lab-icon,
+.main-bottom-lab div{
+	float:left;
+	padding-top:35px;
+}
+
+.main-bottom-lab .lab-icon{
+	padding-right:40px;
+}
+
+.main-bottom-lab div h3,
+.main-bottom-lab div p{
+	border-left:3px solid #e4e4e4;
+	padding-left:15px;
+	padding-right:59px;
+}
+
+.main-bottom-lab div h3{
+	font-size:17px;
+	font-weight: bold;
+	color:#666;
+}
+
+.main-bottom-lab div ul{
+	padding-left:20px;
+}
+
+.main-bottom-lab div ul li{
+	float:left;
+	margin-right:20px;
+}
+
+.main-bottom-lab div ul li a{
+	color:#0050b4;
+}
+
+.main-bottom-lab div ul li a:hover{
+	color:#ff6600;
+}
